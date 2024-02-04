@@ -7,19 +7,19 @@ const SocialList = () => {
   return (
     <div className="social-list-wrapper">
       <ul className="social-list">
-        <li className="social-icon">
+        <li className="social-icon social-icon-hover">
           <a href="https://github.com/basitkorai" target="_blank">
             <img className="icon-github" src={GithubIcon} alt="" />
           </a>
         </li>
 
-        <li className="social-icon">
+        <li className="social-icon social-icon-hover">
           <a href="https://twitter.com/basitxkorai" target="_blank">
             <img src={TwitterIcon} alt="" />
           </a>
         </li>
 
-        <li className="social-icon">
+        <li className="social-icon social-icon-hover">
           <a
             href="https://www.frontendmentor.io/profile/basit-flash"
             target="_blank"
@@ -28,7 +28,7 @@ const SocialList = () => {
           </a>
         </li>
 
-        <li className="social-icon">
+        <li className="social-icon social-icon-hover">
           <a href="mailto:basitalikorai7@gmail.com" target="_blank">
             <img src={EmailIcon} alt="" />
           </a>
