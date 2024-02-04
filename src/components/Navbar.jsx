@@ -26,7 +26,7 @@ const Navbar = () => {
             aria-controls="nav-list"
           >
             <span className="hamburger-box">
-              <span className="hamburger-inner"></span>
+              <span className="hamburger-inner text-white"></span>
             </span>
           </button>
         </div>
