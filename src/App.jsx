@@ -1,6 +1,7 @@
 import Main from './components/Main'
 import Navbar from './components/Navbar'
 import SocialList from './components/SocialList'
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -8,7 +9,7 @@ function App() {
       <SocialList />
       <Navbar />
       <Main />
-      <footer>footer</footer>
+      <Footer />
     </div>
   )
 }

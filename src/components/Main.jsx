@@ -7,7 +7,7 @@ import ReactIcon from '../assets/tech-stack/react.svg'
 const Main = () => {
   return (
     <main className="">
-      <section className="intro-section h-screen mt-0">
+      <section className="intro-section h-screen mt-0 text-center">
         <div className="intro-container">
           <div className="title-wrapper text-4xl sm:text-5xl lg:text-6xl xl:text-7xl">
             <p className="supertitle text-xl">Hi, I'm</p>
