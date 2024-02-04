@@ -500,6 +500,8 @@ h1 .profession {
   .social-list-wrapper .social-list .social-icon {
     width: 1.875rem;
     height: 1.875rem;
+    transition-property: all;
+    transition-duration: 300ms;
   }
   .social-list-wrapper .social-list .social-icon:nth-of-type(1) {
     width: 2.1875rem;
@@ -507,6 +509,21 @@ h1 .profession {
   main {
     max-width: 100rem;
   }
+}
+
+@layer components {
+  .social-icon-hover {
+    @apply hover:-rotate-12 hover:scale-125;
+  }
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+.animate-react {
+  animation: spin 5s linear infinite;
 }
 
 @tailwind base;

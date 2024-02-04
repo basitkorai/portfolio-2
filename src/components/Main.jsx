@@ -6,12 +6,12 @@ import ReactIcon from '../assets/tech-stack/react.svg'
 
 const Main = () => {
   return (
-    <main>
-      <section className="intro-section">
+    <main className="">
+      <section className="intro-section h-screen mt-0">
         <div className="intro-container">
-          <div className="title-wrapper">
-            <p className="supertitle">Hi, I'm</p>
-            <h1 className="title">
+          <div className="title-wrapper text-4xl sm:text-5xl lg:text-6xl xl:text-7xl">
+            <p className="supertitle text-xl">Hi, I'm</p>
+            <h1 className="title font-semibold">
               <span>Basit Korai</span>
               <span className="profession">Web Developer</span>
             </h1>
@@ -20,9 +20,6 @@ const Main = () => {
             I’m a software engineer specializing in building engaging and
             exceptional digital experiences. I’m focused on building accessible,
             and beautiful apps.
-          </p>
-          <p className="message">
-            This site is in mentainance state, more content will be added soon
           </p>
           <a className="btn btn-glow" href="#work">
             Things I've built
@@ -53,7 +50,7 @@ const Main = () => {
             </div>
             <div>
               <img
-                className="technology"
+                className="technology animate-bounce"
                 src={JavascriptIcon}
                 alt=""
                 height="150px"
@@ -71,7 +68,7 @@ const Main = () => {
             </div>
             <div>
               <img
-                className="technology"
+                className="technology animate-react"
                 src={ReactIcon}
                 alt=""
                 height="150px"
