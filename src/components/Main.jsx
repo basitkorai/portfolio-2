@@ -6,14 +6,14 @@ import ReactIcon from '../assets/tech-stack/react.svg'
 
 const Main = () => {
   return (
-    <main className="">
-      <section className="intro-section h-screen mt-0 text-center">
+    <main className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 w-[99vw]">
+      <section className="intro-section h-screen my-0 text-center">
         <div className="intro-container">
           <div className="title-wrapper text-4xl sm:text-5xl lg:text-6xl xl:text-7xl">
             <p className="supertitle text-xl">Hi, I'm</p>
             <h1 className="title font-semibold">
               <span>Basit Korai</span>
-              <span className="profession">Web Developer</span>
+              <span className="text-orange-300">Web Developer</span>
             </h1>
           </div>
           <p className="intro-text">
@@ -68,6 +68,7 @@ const Main = () => {
             </div>
             <div>
               <img
+                draggable
                 className="technology animate-react"
                 src={ReactIcon}
                 alt=""
