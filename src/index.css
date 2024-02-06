@@ -523,7 +523,7 @@ h1 .profession {
   }
 }
 .animate-react {
-  animation: spin 5s linear infinite;
+  animation: spin 15s linear infinite;
 }
 
 .animate-float {
