@@ -668,6 +668,10 @@ h1 .profession {
   -webkit-animation-delay: 3s, 1.5s;
   animation-delay: 3s, 1.5s;
 }
+
+.card-bg {
+  background: rgba(82, 67, 228, 1);
+}
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
