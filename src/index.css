@@ -497,7 +497,7 @@ h1 .profession {
     align-items: center;
     gap: 1.5rem;
   }
-  .social-list-wrapper .social-list .social-icon {
+  .social-icon {
     width: 1.875rem;
     height: 1.875rem;
     transition-property: all;
@@ -524,6 +524,11 @@ h1 .profession {
 }
 .animate-react {
   animation: spin 5s linear infinite;
+}
+
+::selection {
+  background-color: #111;
+  color: violet;
 }
 
 @tailwind base;
