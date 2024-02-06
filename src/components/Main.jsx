@@ -28,7 +28,7 @@ const Main = () => {
       </section>
       <section className="about-me">
         <article className="tech-stack">
-          <h3>My Tech Stack</h3>
+          <h2 className="text-2xl font-semibold">Technologies I know</h2>
           <div className="tech-stack-content">
             <div>
               <img
@@ -50,7 +50,7 @@ const Main = () => {
             </div>
             <div>
               <img
-                className="technology animate-bounce"
+                className="technology animate-float"
                 src={JavascriptIcon}
                 alt=""
                 height="150px"
