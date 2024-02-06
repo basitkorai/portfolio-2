@@ -3,6 +3,7 @@ import CssIcon from '../assets/tech-stack/css-3.svg'
 import JavascriptIcon from '../assets/tech-stack/javascript.svg'
 import SassIcon from '../assets/tech-stack/sass.svg'
 import ReactIcon from '../assets/tech-stack/react.svg'
+import Card from './Card'
 
 const Main = () => {
   return (
@@ -78,6 +79,20 @@ const Main = () => {
             </div>
           </div>
         </article>
+      </section>
+      <section
+        className="projects p-4 bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90%"
+        id="work"
+      >
+        <h2 className="text-2xl font-semibold text-center my-4">
+          My recent work
+        </h2>
+        <div className="flex grid-cols-4 gap-4 justify-center">
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+        </div>
       </section>
     </main>
   )

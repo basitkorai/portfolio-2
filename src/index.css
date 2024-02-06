@@ -523,7 +523,7 @@ h1 .profession {
   }
 }
 .animate-react {
-  animation: spin 5s linear infinite;
+  animation: spin 15s linear infinite;
 }
 
 .animate-float {
@@ -667,6 +667,10 @@ h1 .profession {
   left: 90%;
   -webkit-animation-delay: 3s, 1.5s;
   animation-delay: 3s, 1.5s;
+}
+
+.card-bg {
+  background: rgba(82, 67, 228, 1);
 }
 @tailwind base;
 @tailwind components;
