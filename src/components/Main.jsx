@@ -26,7 +26,7 @@ const Main = () => {
             <p className="supertitle text-xl">Hi, I'm</p>
             <h1 className="title font-semibold">
               <span>Basit Korai</span>
-              <span className="text-orange-300">Web Developer</span>
+              <span className="text-gray-800">Web Developer</span>
             </h1>
           </div>
           <p className="intro-text">
