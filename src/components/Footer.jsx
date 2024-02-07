@@ -5,7 +5,10 @@ import EmailIcon from '../assets/social-list/email-2.svg'
 
 const Footer = () => {
   return (
-    <footer className="bg-cyan-950">
+    <footer id="contact-me" className="bg-cyan-950 p-4">
+      <h2 className="text-2xl font-semibold text-center my-4">
+        Let's start working together!
+      </h2>
       <ul className="flex justify-center gap-5 p-10">
         <li className="social-icon social-icon-hover w-10">
           <a href="https://github.com/basitkorai" target="_blank">
