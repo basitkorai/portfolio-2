@@ -18,6 +18,7 @@ const Main = () => {
           ease: 'anticipate',
         }}
         viewport={{ once: true }}
+        id="hero"
         className="intro-section h-[100dvh] my-0 text-center"
       >
         <div className="intro-container">
@@ -38,7 +39,7 @@ const Main = () => {
           </a>
         </div>
       </motion.section>
-      <section className="about-me">
+      <section id="about-me" className="about-me">
         <article className="tech-stack">
           <h2 className="text-2xl font-semibold">Technologies I know</h2>
           <motion.div
