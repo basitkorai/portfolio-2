@@ -4,6 +4,7 @@ import JavascriptIcon from '../assets/tech-stack/javascript.svg'
 import SassIcon from '../assets/tech-stack/sass.svg'
 import ReactIcon from '../assets/tech-stack/react.svg'
 import Card from './Card'
+import projects from '../data/projects'
 
 const Main = () => {
   return (
@@ -87,11 +88,10 @@ const Main = () => {
         <h2 className="text-2xl font-semibold text-center my-4">
           My recent work
         </h2>
-        <div className="flex grid-cols-4 gap-4 justify-center">
-          <Card />
-          <Card />
-          <Card />
-          <Card />
+        <div className="grid gap-2 grid-cols-1 3xs:grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 justify-items-center">
+          {projects.map((item, index) => {
+            return <Card {...item} key={index} />
+          })}
         </div>
       </section>
     </main>
