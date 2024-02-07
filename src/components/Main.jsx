@@ -5,11 +5,21 @@ import SassIcon from '../assets/tech-stack/sass.svg'
 import ReactIcon from '../assets/tech-stack/react.svg'
 import Card from './Card'
 import projects from '../data/projects'
+import { motion } from 'framer-motion'
 
 const Main = () => {
   return (
-    <main className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 w-[99vw]">
-      <section className="intro-section h-screen my-0 text-center">
+    <main className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 w-[99vw] overflow-x-hidden">
+      <motion.section
+        initial={{ opacity: 0, x: 100 }}
+        whileInView={{ opacity: 1, x: 0 }}
+        transition={{
+          duration: 0.5,
+          ease: 'anticipate',
+        }}
+        viewport={{ once: true }}
+        className="intro-section h-[100dvh] my-0 text-center"
+      >
         <div className="intro-container">
           <div className="title-wrapper text-4xl sm:text-5xl lg:text-6xl xl:text-7xl">
             <p className="supertitle text-xl">Hi, I'm</p>
@@ -27,11 +37,20 @@ const Main = () => {
             Things I've built
           </a>
         </div>
-      </section>
+      </motion.section>
       <section className="about-me">
         <article className="tech-stack">
           <h2 className="text-2xl font-semibold">Technologies I know</h2>
-          <div className="tech-stack-content">
+          <motion.div
+            initial={{ opacity: 0, x: 100 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{
+              duration: 0.5,
+              ease: 'anticipate',
+            }}
+            viewport={{ once: true }}
+            className="tech-stack-content"
+          >
             <div>
               <img
                 className="technology"
@@ -78,10 +97,17 @@ const Main = () => {
                 width="150px"
               />
             </div>
-          </div>
+          </motion.div>
         </article>
       </section>
-      <section
+      <motion.section
+        initial={{ opacity: 0, x: 100 }}
+        whileInView={{ opacity: 1, x: 0 }}
+        transition={{
+          duration: 0.5,
+          ease: 'anticipate',
+        }}
+        viewport={{ once: true }}
         className="projects p-4 bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90%"
         id="work"
       >
@@ -93,7 +119,7 @@ const Main = () => {
             return <Card {...item} key={index} />
           })}
         </div>
-      </section>
+      </motion.section>
     </main>
   )
 }
