@@ -88,7 +88,7 @@ const Main = () => {
         <h2 className="text-2xl font-semibold text-center my-4">
           My recent work
         </h2>
-        <div className="grid gap-2 grid-cols-1 3xs:grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 justify-items-center">
+        <div className="grid gap-4 md:gap-4 grid-cols-1 3xs:grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 justify-items-center">
           {projects.map((item, index) => {
             return <Card {...item} key={index} />
           })}
