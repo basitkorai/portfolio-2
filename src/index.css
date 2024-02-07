@@ -16,6 +16,7 @@
   --clr-footer: #c300ff;
   --screen-mobile: 23.4375em;
   --screen-desktop: 90em;
+  scroll-behavior: smooth;
 }
 
 /*

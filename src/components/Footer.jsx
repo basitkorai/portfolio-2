@@ -5,7 +5,7 @@ import EmailIcon from '../assets/social-list/email-2.svg'
 
 const Footer = () => {
   return (
-    <footer id="contact-me" className="bg-cyan-950 p-4">
+    <footer id="contact-me" className="bg-cyan-900 p-4 min-w-screen">
       <h2 className="text-2xl font-semibold text-center my-4">
         Let's start working together!
       </h2>
