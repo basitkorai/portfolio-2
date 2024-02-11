@@ -11,7 +11,7 @@ const projects = [
         source_code: 'https://github.com/basitkorai/galaxy-games-store',
         site_url: 'https://galaxygames.vercel.app',
         description: 'This web app is a video games store, where users can buy video games and play them using our galaxy games launcher.',
-        technologies: ["React", "NextUI", "Framer Motion"]
+        technologies: ["React", "React Router", "TailwindCSS", "Framer Motion"]
     },
     {
         name: 'Social Rocket',
@@ -19,7 +19,7 @@ const projects = [
         source_code: 'https://github.com/basitkorai/social-media-app',
         site_url: 'https://socialrocket.vercel.app',
         description: 'This web app is a social media website like facebook, where users can share their photos, stories and videos with others.',
-        technologies: ["React", "MUI", "React Icons", "Framer Motion"]
+        technologies: ["React", "MUI", "React Router", "React Icons", "Framer Motion"]
     },
     {
         name: 'Space Tourism Website',

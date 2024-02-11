@@ -30,7 +30,7 @@ const Card = ({
           )
         })}
       </div>
-      <div class="px-2 pt-4 pb-2 flex gap-1 justify-between">
+      <div class="px-2 pt-4 pb-2 mt-auto flex gap-1 justify-between">
         <a
           href={source_code}
           class="bg-slate-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 inline-flex items-center gap-2 cursor-pointer hover:bg-gray-300"
